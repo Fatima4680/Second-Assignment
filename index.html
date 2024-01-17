@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dream Travel</title>
+    <title>Dream-Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/dream.css">
 </head>
 
@@ -24,17 +25,25 @@
                     <li><a href="">Contact</a></li>
                 </ul>
             </div>
+
+            <div class="nav-bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
            
         </nav>
         <div class="banner">
             <h1 class="banner-title">Explore Your Travel</h1>
-            <p class="banner-text">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+            <p class="banner-text">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
          
             <div class="banner-search">
                 <input class="banner-search-where-go" type="text" placeholder="Where go">
-                <input class="banner-search-when" type="text" placeholder="When">
-                <input class="banner-search-select-type" type="text" placeholder="Select Type">
-                <button class="btn-primary">Find Now</button>
+                <select class="banner-search-when" name="" id="">
+                    <option value="">When</option>
+                </select>
+                <select class="banner-search-when" name="" id="">
+                    <option value="">Select Type</option>
+                </select>
+                <button class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
           </div>
         </div>
     </header>
@@ -67,24 +76,53 @@
 
         <div class="destination-text">
             <h1 class="destination-header">Choose Your Destination</h1>
-            <p class="text-grayish-blue">Embark on a personalized journey tailored to your dreams with BisshoDekhi Travels. Our diverse selection of destinations promises an unforgettable adventure for every traveler. Whether you seek cultural immersion, wildlife encounters, or tropical escapes, our tours are crafted to satisfy your wanderlust.</p>
+            <p class="text-grayish-blue">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
         </div>
-        <div class="destination-img">
-            <img src="Images/Maldives.png" alt="">
-            <img src="Images/indonesia.png" alt="">
-            <img src="Images/srilanka.png" alt="">
-            <img src="Images/north-america.png" alt="">
-            <img src="Images/kashmir.png" alt="">
-            <img src="Images/bangladesh.png" alt="">
-            <img src="Images/bandarban.png" alt="">
-        </div>
+        <div class="choose-destination-gallery">
+            <div class="row"> 
+              <div class="image-container">
+                <img src="./Images/Maldives.png" alt="">
+                <p>Maldives</p>
+              </div>
+              <div class="image-container">
+                <img src="./Images/indonesia.png" alt="">
+                <p>Indonesia</p>
+              </div>
+            </div>
+          
+            <div class="row">
+              <div class="image-container">
+                <img src="./Images/srilanka.png" alt="">
+                <p>Sri Lanka</p>
+              </div>
+              <div class="image-container">
+                <img src="./Images/north-america.png" alt="">
+                <p>North America</p>
+              </div>
+              <div class="image-container">
+                <img src="./Images/kashmir.png" alt="">
+                <p>Kashmir</p>
+              </div>
+            </div>
+          
+            <div class="row">
+              <div class="image-container">
+                <img src="./Images/bangladesh.png" alt="">
+                <p>Bangladesh</p>
+              </div>
+              <div class="image-container">
+                <img src="./Images/bandarban.png" alt="">
+                <p>Bandarban</p>
+              </div>
+            </div>
+          </div>
      </section>
 
 
      <section class="choose-us">
         <div class="choose-us-text">
             <h1 class="choose-us-header">Why Choose Us</h1>
-            <p class="text-grayish-blue">Choose BisshoDekhi Travel for a travel experience that transcends the ordinary. Let us turn your travel dreams into reality, one extraordinary adventure at a time.</p>
+            <p class="text-grayish-blue">Choose Dream Travel for a travel experience that transcends the ordinary. Let us turn your travel dreams into reality, one extraordinary adventure at a time.</p>
         </div>
         <div class="box">
         <div class="choose-us-box">
@@ -124,7 +162,7 @@
                    <img src="Images/people.png" alt="">
                    <p class="discount-img1-people-txt">Max : 10</p>
                    <img src="Images/location.png" alt="">
-                   <p class="discount-img1-location-txt">Bangladesh</p>
+                   <p class="discount-img1-location-txt">BD</p>
                 </div>
                 <h1 class="place-name">Tour To Rangamati</h1>
                 <p>Explore the serene beauty of Rangamati with our exclusive tour! Nestled in the hills of Bangladesh, Rangamati offers breathtaking landscapes, pristine lakes, and vibrant indigenous culture.</p>
@@ -141,10 +179,10 @@
                <img src="Images/people.png" alt="">
                <p class="discount-img1-people-txt">Max : 20</p>
                <img src="Images/location.png" alt="">
-               <p class="discount-img1-location-txt">Bangladesh</p>
+               <p class="discount-img1-location-txt">BD</p>
             </div>
-            <h1 class="place-name">Tour To Durgapur</h1>
-            <p>Discover the hidden gem of Bijoypur with our curated tour! Immerse yourself in the charm of this quaint destination, known for its unique blend of history and natural beauty.</p>
+            <h1 class="place-name">Tour To B.baria</h1>
+            <p>Discover the hidden gem of B.baria with our curated tour! Immerse yourself in the charm of this quaint destination, known for its unique blend of history and natural beauty.</p>
             <h3>Price: $500-$700</h3>
             <button class="btn-book">Book Now</button>
             </div>
@@ -191,7 +229,7 @@
     
         <div class="simple-section-text">
             <h1 class="simple-section-text-header">A Simple Perfect Place To Get Lost</h1>
-            <p class="text-grayish-blue">Embark on a journey of discovery at our travel agency—a simple, perfect place to get lost in extraordinary destinations and unforgettable adventures.</p>
+            <p class="text-grayish-blue">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
         
             <ul>
             <li>Explore our curated destinations for a tranquil escape.</li>
@@ -200,7 +238,7 @@
             <button class="btn-primary">See More</button>
         </div>
         <div class="simple-section-image">
-            <img src="Images/Maldives.png" alt="">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nt-wWlaSjc8?si=PAjcRFA6dudEGaMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
 
@@ -225,10 +263,51 @@
     <div class="newsletter-img">
         <img src="Images/newsletter.png" alt="">
         <div class="discount-box">
-            <p>Dreamtravel.com.com</p>
+            <p>Dream.com</p>
             <h1>Save Up To 70% </h1>
         </div>
     </div>
+
+     </section>
+     <section class="review">
+        <div class="ratting-score"> <span class="percent">4 out of 5</span></div>
+        <h1>Reviews, by real people</h1>
+
+     <div class="ratings">
+
+        <div class="excelent">
+            <h3>Excellent</h3>
+            <div class="excelent-review">
+                <div class="fillup"></div>
+            </div>
+            <h3>123</h3>
+        </div>
+        <div class="good">
+            <h3>Good </h3>
+            <div class="good-review">
+                <div class="good-fillup"></div>
+            </div>
+            <h3>50</h3>
+        </div>
+
+        <div class="average">
+            <h3>Average </h3>
+            <div class="average-review">
+                <div class="average-fillup"></div>
+            </div>
+            <h3>10</h3>
+        </div>
+
+        <div class="bad">
+            <h3>Bad </h3>
+            <div class="bad-review">
+                <div class="bad-fillup"></div>
+            </div>
+            <h3>3</h3>
+        </div>
+
+
+     </div>
 
      </section>
     </main>
@@ -241,7 +320,7 @@
            
         </div>
         <div>
-          <p class="footer-desc">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus. </p>
+          <p class="footer-desc">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque. </p>
         </div>
        
   
@@ -255,7 +334,7 @@
   
         <hr>
   
-        <p class="copyright">&copy All Rights Reserved-<i>Sayem</i></p>
+        <p class="copyright">&copy All Rights Reserved-<i>Fatima</i></p>
       
   
   
